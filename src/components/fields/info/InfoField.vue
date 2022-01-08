@@ -4,6 +4,7 @@
     <Score/>
     <Time/>
     <Start/>
+    <Stop/>
   </div>
 </template>
 
@@ -12,6 +13,8 @@ import NextBlock from './next_block/NextBlock.vue';
 import Score from './labels/Score.vue';
 import Time from './labels/Time.vue';
 import Start from './buttons/Start.vue';
+import Stop from './buttons/Stop.vue';
+
 export default {
   name: 'InfoField',
   components: {
@@ -19,6 +22,7 @@ export default {
     Score,
     Time,
     Start,
+    Stop
   }
 }
 </script>
