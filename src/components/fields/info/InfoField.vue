@@ -3,6 +3,7 @@
     <NextBlock/>
     <Score/>
     <Time/>
+    <Start/>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import NextBlock from './next_block/NextBlock.vue';
 import Score from './labels/Score.vue';
 import Time from './labels/Time.vue';
+import Start from './buttons/Start.vue';
 export default {
   name: 'InfoField',
   components: {
     NextBlock,
     Score,
     Time,
+    Start,
   }
 }
 </script>
